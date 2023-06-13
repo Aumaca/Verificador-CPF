@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Century Gothic", sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    padding-left: 20px;
+}
+
+.input__container {
+    display: flex;
+    justify-content: center;
+}
+
+.input__container input {
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.input__container input:focus {
+    border: 1px solid rgb(64, 177, 243);
+    box-shadow: rgb(64, 177, 243, 0.5) 0px 5px 15px;
+}
+
+.input__container button {
+    border-radius: 0px 10px 10px 0px;
+    border: 1px solid black;
+}
+
+.input__container button:hover {
+    cursor: pointer;
+}
+
+.input__container button:active {
+    transform: scale(0.99);
+}
+
+.result__container {
+    display: flex;
+    justify-content: center;
+    border-radius: 7.5px;
+    margin-top: 50px;
+}
+
+.result__container.true {
+    border: 3px solid rgb(36, 175, 99);
+    /* To turn red or green */
+}
+
+.result__container.false {
+    border: 3px solid rgb(190, 26, 26);
+    /* To turn red or green */
+}

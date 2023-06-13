@@ -1,0 +1,14 @@
+{
+  "name": "verificador-cpf",
+  "version": "1.0.0",
+  "description": "Aplicação Desktop para verificação de CPF",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Carlos Aumaca",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.1.0"
+  }
+}
